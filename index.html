@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="question-counter"></div>
+  <div id="quiz-container">
+    <div id="question-box"></div>
+    <div id="options-container"></div>
+    <div id="answer-status"></div>
+    <div id="result-container">
+      <h2 id="quiz-results-header">Quiz Results</h2>
+      <p id="result-message"></p>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+    
+    <div id="bottom-buttons">
+      <button onclick="restartQuiz('en')">Restart Quiz (English)</button>
+      <button onclick="restartQuiz('sl')">Ponovno začni kviz (Slovenian)</button>
+    </div>
+    
+
+  <script src="/JS/script.js"></script>
+</body>
+</html>

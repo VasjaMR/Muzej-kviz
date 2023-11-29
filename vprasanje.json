@@ -1,0 +1,103 @@
+[
+    {
+      "question": {
+        "en": "What's an algorithm?",
+        "sl": "Kaj je algoritem?"
+      },
+      "options": {
+        "en": [" A sequence of rigorous instructions", "A machine capable of carrying out actions automatically", "A statement that is taken to be true", "An unknown function with one or more variables"],
+        "sl": [" Zaporedje natančno določenih navodil", "Stroj, ki ga nadzoruje računalnik", "Teza, ki se jo sprejema brez dokazov", "Enačba neznane funkcije ene ali več spremenljivk"]
+      }
+    },
+    {
+        "question": {
+          "en": "What did Charles Babbage invent?",
+          "sl": "Kaj je izumil Charles Babbage?"
+        },
+        "options": {
+          "en": [" The first mechanical computer", "The punched tape-controlled loom", "Data storage on punched cards", "Special Algebra using 1s and 0s"],
+          "sl": [" Prvi mehanski računalnik", "Statve, ki jih krmili luknjan trak", "Shranjevanje podatkov na luknjanih karticah", "Algebro s spremenljivkama 0 in 1"]
+        }
+    },
+    {
+        "question": {
+          "en": "Who was the first computer programmer?",
+          "sl": "Kdo je bila prva računalniška programerka?"
+        },
+        "options": {
+          "en": [" Ada Lovelace", "Kathleen Booth", "Grace Hopper", "Margaret Hamilton"],
+          "sl": [" Ada Lovelace", "Kathleen Booth", " Grace Hopper", "Margaret Hamilton"]
+        }
+    },
+    {
+        "question": {
+          "en": "Which of the following was not invented by Alan Turing?",
+          "sl": "Česa ni izumil Alan Turing?"
+        },
+        "options": {
+          "en": [" Turing sort", "Turing machine", "Turing test", "Turing completeness"],
+          "sl": [" Turingovega razvrščanja", "Turingovega stroja", "Turingovega testa", "Turingove kompletnosti"]
+        }
+    },
+    {
+        "question": {
+          "en": "Which is not a component of the Von Neumann architecture?",
+          "sl": "Kaj ni sestavni del Von Neumannove arhitekture?"
+        },
+        "options": {
+          "en": [" Cooling Unit", "Central Processing Unit", "Memory Unit", "Input and Output devices"],
+          "sl": [" Hladilni sistem", "Centralna procesna enota", "Pomnilnik", "Vhodno-izhodne naprave"]
+        }
+    },
+    {
+        "question": {
+          "en": "To which group of programming languages does Assembly belong to?",
+          "sl": "V katero skupino spada zbirni programski jezik?"
+        },
+        "options": {
+          "en": [" Low-level languages", "High-level languages", "Mid-level languages", "Binary languages"],
+          "sl": [" Nizkonivojski jeziki", "Visokonivojski jeziki", "Srednjenivojski jeziki", "Binarni jeziki"]
+        }
+    },
+    {
+        "question": {
+          "en": "What's a computer bug?",
+          "sl": "Kaj je računalniški hrošč?"
+        },
+        "options": {
+          "en": [" A non-intentional error in the program", "A program designed to cause problems", "A program that flies away with our bank information", "An error that damages computer hardware"],
+          "sl": [" Nenamerna napaka v programu", "Program, ki povzroča namerno škodo", "Program, ki odleti z našimi bančnimi podatki", "Napaka, ki povzroči okvaro strojne opreme"]
+        }
+    },
+    {
+        "question": {
+          "en": "Which Apollo mission was the first to successfully land on the Moon?",
+          "sl": "Katera misija Apollo je prva uspešno pristala na luni?"
+        },
+        "options": {
+          "en": [" 11", "10", "12", "13"],
+          "sl": [" 11", "10", "12", "13"]
+        }
+    },
+    {
+        "question": {
+          "en": "With whom among the people on our wall does Donald Knuth share his field research?",
+          "sl": "S katero osebo na naši steni si področje zanimanja deli Donald Knuth?"
+        },
+        "options": {
+          "en": [" Muhammad al-Khwarizmi", "Alan Turing", "John von Neumann", "John McCarthy"],
+          "sl": [" Z Muhamedom Al-Hvarizmom", "Z Alanom Turingom", "Z Johnom von Neumannom", "Z Johnom McCarthyjem"]
+        }
+    },
+    {
+      "question": {
+        "en": "On which field did Marwin Minsky do his research?",
+        "sl": "Kaj je preučeval Marwin Minsky?"
+      },
+      "options": {
+        "en": [" Artificial intelligence", "Computer viruses", "High-level programming languages", "Advanced data storage mediums"],
+        "sl": [" Umetno inteligenco", "Računalniške viruse", "Visokonivojske programske jezike", "Napredne podatkovne nosilce"]
+      }
+  }
+  ]
+  
