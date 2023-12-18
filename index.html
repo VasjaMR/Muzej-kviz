@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz</title>
-  <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
 </head>
 <body>
-  <div id="question-counter"></div>
-  <div id="quiz-container">
-    <div id="question-box"></div>
-    <div id="options-container"></div>
-    <div id="answer-status"></div>
-    <div id="result-container">
-      <h2 id="quiz-results-header">Quiz Results</h2>
-      <p id="result-message"></p>
-      <button onclick="restartQuiz()">Restart Quiz</button>
+    <div class="Naslov">
+        <h1>Kviz: Osebnosti zgodovine računalništva</h1>
     </div>
-    
-    <div id="bottom-buttons">
-      <button onclick="restartQuiz('en')">Restart Quiz (English)</button>
-      <button onclick="restartQuiz('sl')">Ponovno začni kviz (Slovenian)</button>
+    <div class="vprasanje">
+        <h2>V1: vprasanje</h1>
     </div>
-    
-
-  <script src="/JS/script.js"></script>
+    <div class="gumbi1">
+        <div class="gumbi1_zgoraj">  
+            <div id="gumb1">
+                <a href="" class="g1">Odgovor 1</a>
+            </div>
+            <div id="gumb2">
+                <a href="" class="g1">Odgovor 2</a>
+            </div>
+        </div>
+        <div class="gumbi1_spodaj">   
+            <div id="gumb3">
+                <a href="" class="g1">Odgovor 3</a>
+            </div>
+            <div id="gumb4">
+                <a href="" class="g1">Odgovor 4</a>
+            </div>
+        </div>
+    </div>
 </body>
+<footer>
+    <div class="gumbi2">
+        <div id="gumb5">
+            <a href="" class="g2">Začni znova</a>
+        </div>
+        <div id="gumb6">
+            <a href="" class="g2">English Start</a>
+        </div>  
+    </div>
+</footer>
+<script src="/js/script.js"></script>
 </html>
