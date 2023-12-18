@@ -1,120 +1,98 @@
 @font-face {
-  font-family: Retro;
-  src: url(/fonts/sh-pinscher/SHPinscher-Regular.otf);
+    font-family: Retro;
+    src: url(/fonts/sh-pinscher/SHPinscher-Regular.otf);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    background-color: black;
+    letter-spacing: 2px;
+    
 }
 
 body {
-  font-family: Retro;
-  text-align: center;
-  color: white;
-  background-color: #000000;
-  font-size: 32px;
-  user-select: none;
+    font-family: "Retro";
+    font-size: 32px;
 }
 
-#question-box {
-  display: block;
-  background-color: #000000;
-  padding: 50px;
-  border: solid;
-  border-color: gray;
-  border-radius: 10px;
-  border-width: 5px;
-  border-bottom-width: 10px;
-  margin-top: 50px;
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
 }
 
-#options-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
-  gap: 10px;
-  justify-content: space-around;
-  margin-top: 20px;
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: white;
 }
 
-.options-box {
-  display:block;
-  padding: 10px;
-  background-color: gray;
-  cursor: pointer;
-  padding: 40px;
-  border-radius: 10px;
-  border: solid;
-  border-color: black;
+.gumbi1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.gumbi1_zgoraj {
+    display: flex;
 }
 
-#bottom-buttons {
-  position: absolute;
-  bottom: 0;
-  width: 50%%;
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
+.gumbi1_spodaj{
+    display: flex;
 }
 
-button {
-  font-family: Retro;
-  padding: 10px;
-  font-size: 20px;
-  margin: 10px;
-  cursor: pointer;
-  background-color:#000000;
-  color: rgb(255, 255, 255);
-  border: solid; 
-  border-radius: 5px; 
+.gumbi2{
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.g1{
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #787878;
+    width: 230px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    color: white
+}
+
+#gumb1, #gumb2, #gumb3, #gumb4{
+   display: flex;
+}
+
+.vprasanje {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border-color: #787878;
+    border-style: solid;
+    border-bottom-width: 15px;
+    border-top-width: 5px;
 }
 
 .g2{
-  border: solid;
-  border-color: white;
-  background-color: #000000;
-  color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    color: white;
 }
 
-#answer-status {
-  display: flex;
-  margin-top: 10px;
-  justify-content: center;
+footer {
+    display: flex;
+
 }
-
-
-
-#result-container {
-  text-align: center;
-  margin-top: 50px;
-  display: none;
-}
-
-
-/* Add these styles to your existing CSS */
-@keyframes correctFlash {
-  0% { background-color: #4CAF50; }
-  50% { background-color: #ffffff; } /* Flash to white halfway through the animation */
-  100% { background-color: #4CAF50; }
-}
-
-.correct-flash {
-  animation: correctFlash 0.5s;
-}
-
-.correct-answer {
-  color: #ffffff; /* Text color for correct answer */
-  background-color: #000000; /* Green background color */
-}
-
-.incorrect-flash {
-  animation: incorrectFlash 0.5s;
-}
-
-@keyframes incorrectFlash {
-  0% { background-color: #FF0000; }
-  50% { background-color: #ffffff; }
-  100% { background-color: #FF0000; }
-}
-
-/* Add this to your CSS stylesheet */
-.options-box {
-  height: 50px; /* Adjust the height as needed */
-  /* Add other styling properties if necessary */
-}
-
